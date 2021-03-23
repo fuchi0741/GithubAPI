@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Repository: Decodable {
+    public var id: Int
+    public var name: String
+    public var fullName: String
+    public var owner: User
+}
